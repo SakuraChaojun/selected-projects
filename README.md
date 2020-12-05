@@ -1,2 +1,1 @@
-# DalhousieCs
-Dalhousie University Computer Sci Program
+# Mobile Development
