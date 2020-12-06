@@ -1,0 +1,8 @@
+﻿word,colour,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,weclomeText.started,weclomeText.stopped,key_welcome.keys,key_welcome.rt,key_welcome.started,key_welcome.stopped,textBlank500.started,textBlank500.stopped,textstudy.started,textstudy.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,10.0001644999993,None,space,1.069222099999024,10.0001644999993,None,,,,,00,001,2020_Aug_08_0007,untitled,2020.1.3,60.059699341253946,
+FRIEND,green,0,0,0,0,,,,,,,13.61001319999923,None,11.953728399999818,None,00,001,2020_Aug_08_0007,untitled,2020.1.3,60.059699341253946,
+PHONE,green,0,1,1,1,,,,,,,16.108697899999243,None,14.109686199999487,None,00,001,2020_Aug_08_0007,untitled,2020.1.3,60.059699341253946,
+GLASS,blue,0,2,2,4,,,,,,,18.60721149999881,None,16.608236199999737,None,00,001,2020_Aug_08_0007,untitled,2020.1.3,60.059699341253946,
+VALLEY,blue,0,3,3,3,,,,,,,21.10588970000026,None,19.10690599999907,None,00,001,2020_Aug_08_0007,untitled,2020.1.3,60.059699341253946,
+WRENCH,blue,0,4,4,5,,,,,,,23.604443099999116,None,21.60551250000026,None,00,001,2020_Aug_08_0007,untitled,2020.1.3,60.059699341253946,
+MOUNTAIN,blue,0,5,5,2,,,,,,,26.1029125999994,None,24.103934499999013,None,00,001,2020_Aug_08_0007,untitled,2020.1.3,60.059699341253946,

@@ -1,0 +1,267 @@
+0.5306 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+4.8027 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+7.0092 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025556326550>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000025556389DD8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.0092 	EXP 	window1: recordFrameIntervals = False
+7.1753 	EXP 	window1: recordFrameIntervals = True
+7.3586 	EXP 	window1: recordFrameIntervals = False
+7.7876 	EXP 	Created weclomeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='weclomeText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Welcome to our experiment\n\n', units='height', win=Window(...), wrapWidth=1)
+7.7881 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+7.7991 	EXP 	Created textstudy = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textstudy', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+7.7996 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+7.8114 	EXP 	Created textWait = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textWait', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Please wait \n\nready press space', units='height', win=Window(...), wrapWidth=1)
+7.8119 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+7.8134 	EXP 	Created polygon_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='polygon_2', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+7.8173 	EXP 	Created textresp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textresp', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+7.8282 	EXP 	Created textQuestion = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textQuestion', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=array([255., 255., 255.]), text='Have you seen this word before', units='height', win=Window(...), wrapWidth=1)
+7.8287 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+7.8370 	EXP 	Created textEnd = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textEnd', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Thanks for participating ', units='height', win=Window(...), wrapWidth=1)
+7.8661 	EXP 	weclomeText: autoDraw = True
+8.7624 	DATA 	Keypress: space
+8.7741 	EXP 	weclomeText: autoDraw = False
+8.7741 	EXP 	textBlank500: autoDraw = True
+9.2836 	EXP 	Imported word.xlsx as conditions, 3 conditions, 3 params
+9.2839 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+9.2841 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'MOUNTAIN'), ('oldnew', 'old'), ('corr', 'y')])
+9.2996 	EXP 	textBlank500: autoDraw = False
+9.2996 	EXP 	textBlank500: autoDraw = False
+9.2996 	EXP 	textstudy: text = 'MOUNTAIN'
+9.2996 	EXP 	textstudy: autoDraw = True
+10.2902 	EXP 	textstudy: autoDraw = False
+10.2902 	EXP 	textBlank500: autoDraw = True
+10.7738 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'PHONE'), ('oldnew', 'old'), ('corr', 'y')])
+10.7897 	EXP 	textBlank500: autoDraw = False
+10.7897 	EXP 	textstudy: text = 'PHONE'
+10.7897 	EXP 	textstudy: autoDraw = True
+11.7893 	EXP 	textstudy: autoDraw = False
+11.7893 	EXP 	textBlank500: autoDraw = True
+12.2730 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'FRIEND'), ('oldnew', 'old'), ('corr', 'y')])
+12.2890 	EXP 	textBlank500: autoDraw = False
+12.2890 	EXP 	textstudy: text = 'FRIEND'
+12.2890 	EXP 	textstudy: autoDraw = True
+13.2884 	EXP 	textstudy: autoDraw = False
+13.2884 	EXP 	textBlank500: autoDraw = True
+13.7883 	EXP 	textBlank500: autoDraw = False
+13.7883 	EXP 	textWait: autoDraw = True
+14.4773 	DATA 	Keypress: space
+14.4878 	EXP 	textWait: autoDraw = False
+14.4878 	EXP 	textBlank500: autoDraw = True
+14.9801 	EXP 	Imported word.xlsx as conditions, 37 conditions, 3 params
+14.9803 	EXP 	Created sequence: random, trialTypes=37, nReps=1, seed=None
+14.9806 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'NEURO'), ('oldnew', 'new'), ('corr', 'n')])
+14.9969 	EXP 	textBlank500: autoDraw = False
+14.9969 	EXP 	textBlank500: autoDraw = False
+14.9969 	EXP 	textresp: text = 'NEURO'
+14.9969 	EXP 	polygon_2: autoDraw = True
+14.9969 	EXP 	textresp: autoDraw = True
+14.9969 	EXP 	textQuestion: autoDraw = True
+24.1724 	DATA 	Keypress: space
+25.1574 	DATA 	Keypress: y
+25.1651 	EXP 	polygon_2: autoDraw = False
+25.1651 	EXP 	textresp: autoDraw = False
+25.1651 	EXP 	textQuestion: autoDraw = False
+25.1651 	EXP 	textBlank500: autoDraw = True
+25.6505 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', None), ('oldnew', None), ('corr', None)])
+25.6665 	EXP 	textBlank500: autoDraw = False
+25.6665 	EXP 	textBlank500: autoDraw = False
+25.6665 	EXP 	textresp: text = 'NEURO'
+25.6665 	EXP 	polygon_2: autoDraw = True
+25.6665 	EXP 	textresp: autoDraw = True
+25.6665 	EXP 	textQuestion: autoDraw = True
+26.6063 	DATA 	Keypress: y
+26.6142 	EXP 	polygon_2: autoDraw = False
+26.6142 	EXP 	textresp: autoDraw = False
+26.6142 	EXP 	textQuestion: autoDraw = False
+26.6142 	EXP 	textBlank500: autoDraw = True
+27.0997 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'HIPPOCAMPUS'), ('oldnew', 'new'), ('corr', 'n')])
+27.1174 	EXP 	textBlank500: autoDraw = False
+27.1174 	EXP 	textBlank500: autoDraw = False
+27.1174 	EXP 	textresp: text = 'HIPPOCAMPUS'
+27.1174 	EXP 	polygon_2: autoDraw = True
+27.1174 	EXP 	textresp: autoDraw = True
+27.1174 	EXP 	textQuestion: autoDraw = True
+29.1879 	DATA 	Keypress: n
+29.1961 	EXP 	polygon_2: autoDraw = False
+29.1961 	EXP 	textresp: autoDraw = False
+29.1961 	EXP 	textQuestion: autoDraw = False
+29.1961 	EXP 	textBlank500: autoDraw = True
+29.6813 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', None), ('oldnew', None), ('corr', None)])
+29.6976 	EXP 	textBlank500: autoDraw = False
+29.6976 	EXP 	textBlank500: autoDraw = False
+29.6976 	EXP 	textresp: text = 'HIPPOCAMPUS'
+29.6976 	EXP 	polygon_2: autoDraw = True
+29.6976 	EXP 	textresp: autoDraw = True
+29.6976 	EXP 	textQuestion: autoDraw = True
+30.4708 	DATA 	Keypress: n
+30.4788 	EXP 	polygon_2: autoDraw = False
+30.4788 	EXP 	textresp: autoDraw = False
+30.4788 	EXP 	textQuestion: autoDraw = False
+30.4788 	EXP 	textBlank500: autoDraw = True
+30.9644 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'MOUNTAIN'), ('oldnew', 'old'), ('corr', 'y')])
+30.9803 	EXP 	textBlank500: autoDraw = False
+30.9803 	EXP 	textBlank500: autoDraw = False
+30.9803 	EXP 	textresp: text = 'MOUNTAIN'
+30.9803 	EXP 	polygon_2: autoDraw = True
+30.9803 	EXP 	textresp: autoDraw = True
+30.9803 	EXP 	textQuestion: autoDraw = True
+31.9680 	DATA 	Keypress: p
+33.2333 	DATA 	Keypress: n
+33.2605 	EXP 	polygon_2: autoDraw = False
+33.2605 	EXP 	textresp: autoDraw = False
+33.2605 	EXP 	textQuestion: autoDraw = False
+33.2605 	EXP 	textBlank500: autoDraw = True
+33.7461 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', None), ('oldnew', None), ('corr', None)])
+33.7620 	EXP 	textBlank500: autoDraw = False
+33.7620 	EXP 	textBlank500: autoDraw = False
+33.7620 	EXP 	textresp: text = 'MOUNTAIN'
+33.7620 	EXP 	polygon_2: autoDraw = True
+33.7620 	EXP 	textresp: autoDraw = True
+33.7620 	EXP 	textQuestion: autoDraw = True
+34.5188 	DATA 	Keypress: n
+34.5266 	EXP 	polygon_2: autoDraw = False
+34.5266 	EXP 	textresp: autoDraw = False
+34.5266 	EXP 	textQuestion: autoDraw = False
+34.5266 	EXP 	textBlank500: autoDraw = True
+35.0122 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', None), ('oldnew', None), ('corr', None)])
+35.0279 	EXP 	textBlank500: autoDraw = False
+35.0279 	EXP 	textBlank500: autoDraw = False
+35.0279 	EXP 	textresp: text = 'MOUNTAIN'
+35.0279 	EXP 	polygon_2: autoDraw = True
+35.0279 	EXP 	textresp: autoDraw = True
+35.0279 	EXP 	textQuestion: autoDraw = True
+35.6009 	DATA 	Keypress: n
+35.6092 	EXP 	polygon_2: autoDraw = False
+35.6092 	EXP 	textresp: autoDraw = False
+35.6092 	EXP 	textQuestion: autoDraw = False
+35.6092 	EXP 	textBlank500: autoDraw = True
+36.0949 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', None), ('oldnew', None), ('corr', None)])
+36.1106 	EXP 	textBlank500: autoDraw = False
+36.1106 	EXP 	textBlank500: autoDraw = False
+36.1106 	EXP 	textresp: text = 'MOUNTAIN'
+36.1106 	EXP 	polygon_2: autoDraw = True
+36.1106 	EXP 	textresp: autoDraw = True
+36.1106 	EXP 	textQuestion: autoDraw = True
+36.5330 	DATA 	Keypress: n
+36.5421 	EXP 	polygon_2: autoDraw = False
+36.5421 	EXP 	textresp: autoDraw = False
+36.5421 	EXP 	textQuestion: autoDraw = False
+36.5421 	EXP 	textBlank500: autoDraw = True
+37.0274 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', None), ('oldnew', None), ('corr', None)])
+37.0435 	EXP 	textBlank500: autoDraw = False
+37.0435 	EXP 	textBlank500: autoDraw = False
+37.0435 	EXP 	textresp: text = 'MOUNTAIN'
+37.0435 	EXP 	polygon_2: autoDraw = True
+37.0435 	EXP 	textresp: autoDraw = True
+37.0435 	EXP 	textQuestion: autoDraw = True
+37.4659 	DATA 	Keypress: n
+37.4747 	EXP 	polygon_2: autoDraw = False
+37.4747 	EXP 	textresp: autoDraw = False
+37.4747 	EXP 	textQuestion: autoDraw = False
+37.4747 	EXP 	textBlank500: autoDraw = True
+37.9601 	EXP 	New trial (rep=0, index=9): OrderedDict([('word', None), ('oldnew', None), ('corr', None)])
+37.9764 	EXP 	textBlank500: autoDraw = False
+37.9764 	EXP 	textBlank500: autoDraw = False
+37.9764 	EXP 	textresp: text = 'MOUNTAIN'
+37.9764 	EXP 	polygon_2: autoDraw = True
+37.9764 	EXP 	textresp: autoDraw = True
+37.9764 	EXP 	textQuestion: autoDraw = True
+38.2654 	DATA 	Keypress: n
+38.2745 	EXP 	polygon_2: autoDraw = False
+38.2745 	EXP 	textresp: autoDraw = False
+38.2745 	EXP 	textQuestion: autoDraw = False
+38.2745 	EXP 	textBlank500: autoDraw = True
+38.7598 	EXP 	New trial (rep=0, index=10): OrderedDict([('word', 'PHONE'), ('oldnew', 'old'), ('corr', 'y')])
+38.7761 	EXP 	textBlank500: autoDraw = False
+38.7761 	EXP 	textBlank500: autoDraw = False
+38.7761 	EXP 	textresp: text = 'PHONE'
+38.7761 	EXP 	polygon_2: autoDraw = True
+38.7761 	EXP 	textresp: autoDraw = True
+38.7761 	EXP 	textQuestion: autoDraw = True
+39.0492 	DATA 	Keypress: n
+39.0573 	EXP 	polygon_2: autoDraw = False
+39.0573 	EXP 	textresp: autoDraw = False
+39.0573 	EXP 	textQuestion: autoDraw = False
+39.0573 	EXP 	textBlank500: autoDraw = True
+39.5429 	EXP 	New trial (rep=0, index=11): OrderedDict([('word', 'WRENCH'), ('oldnew', 'old'), ('corr', 'y')])
+39.5588 	EXP 	textBlank500: autoDraw = False
+39.5588 	EXP 	textBlank500: autoDraw = False
+39.5588 	EXP 	textresp: text = 'WRENCH'
+39.5588 	EXP 	polygon_2: autoDraw = True
+39.5588 	EXP 	textresp: autoDraw = True
+39.5588 	EXP 	textQuestion: autoDraw = True
+39.8159 	DATA 	Keypress: n
+39.8235 	EXP 	polygon_2: autoDraw = False
+39.8235 	EXP 	textresp: autoDraw = False
+39.8235 	EXP 	textQuestion: autoDraw = False
+39.8235 	EXP 	textBlank500: autoDraw = True
+40.1927 	DATA 	Keypress: n
+40.3091 	EXP 	New trial (rep=0, index=12): OrderedDict([('word', 'HYPOTHALAMUS'), ('oldnew', 'new'), ('corr', 'n')])
+40.3248 	EXP 	textBlank500: autoDraw = False
+40.3248 	EXP 	textBlank500: autoDraw = False
+40.3248 	EXP 	textresp: text = 'HYPOTHALAMUS'
+40.3248 	EXP 	polygon_2: autoDraw = True
+40.3248 	EXP 	textresp: autoDraw = True
+40.3248 	EXP 	textQuestion: autoDraw = True
+40.3815 	DATA 	Keypress: n
+40.3899 	EXP 	polygon_2: autoDraw = False
+40.3899 	EXP 	textresp: autoDraw = False
+40.3899 	EXP 	textQuestion: autoDraw = False
+40.3899 	EXP 	textBlank500: autoDraw = True
+40.8755 	EXP 	New trial (rep=0, index=13): OrderedDict([('word', 'GLASS'), ('oldnew', 'old'), ('corr', 'y')])
+40.8912 	EXP 	textBlank500: autoDraw = False
+40.8912 	EXP 	textBlank500: autoDraw = False
+40.8912 	EXP 	textresp: text = 'GLASS'
+40.8912 	EXP 	polygon_2: autoDraw = True
+40.8912 	EXP 	textresp: autoDraw = True
+40.8912 	EXP 	textQuestion: autoDraw = True
+41.3470 	DATA 	Keypress: n
+41.3561 	EXP 	polygon_2: autoDraw = False
+41.3561 	EXP 	textresp: autoDraw = False
+41.3561 	EXP 	textQuestion: autoDraw = False
+41.3561 	EXP 	textBlank500: autoDraw = True
+41.8408 	EXP 	New trial (rep=0, index=14): OrderedDict([('word', None), ('oldnew', None), ('corr', None)])
+41.8575 	EXP 	textBlank500: autoDraw = False
+41.8575 	EXP 	textBlank500: autoDraw = False
+41.8575 	EXP 	textresp: text = 'GLASS'
+41.8575 	EXP 	polygon_2: autoDraw = True
+41.8575 	EXP 	textresp: autoDraw = True
+41.8575 	EXP 	textQuestion: autoDraw = True
+42.1306 	DATA 	Keypress: n
+42.1389 	EXP 	polygon_2: autoDraw = False
+42.1389 	EXP 	textresp: autoDraw = False
+42.1389 	EXP 	textQuestion: autoDraw = False
+42.1389 	EXP 	textBlank500: autoDraw = True
+42.6240 	EXP 	New trial (rep=0, index=15): OrderedDict([('word', 'HAMMER'), ('oldnew', 'old'), ('corr', 'y')])
+42.6404 	EXP 	textBlank500: autoDraw = False
+42.6404 	EXP 	textBlank500: autoDraw = False
+42.6404 	EXP 	textresp: text = 'HAMMER'
+42.6404 	EXP 	polygon_2: autoDraw = True
+42.6404 	EXP 	textresp: autoDraw = True
+42.6404 	EXP 	textQuestion: autoDraw = True
+42.9127 	DATA 	Keypress: n
+42.9222 	EXP 	polygon_2: autoDraw = False
+42.9222 	EXP 	textresp: autoDraw = False
+42.9222 	EXP 	textQuestion: autoDraw = False
+42.9222 	EXP 	textBlank500: autoDraw = True
+43.4074 	EXP 	New trial (rep=0, index=16): OrderedDict([('word', 'PUTAMEN'), ('oldnew', 'new'), ('corr', 'n')])
+43.4233 	EXP 	textBlank500: autoDraw = False
+43.4233 	EXP 	textBlank500: autoDraw = False
+43.4233 	EXP 	textresp: text = 'PUTAMEN'
+43.4233 	EXP 	polygon_2: autoDraw = True
+43.4233 	EXP 	textresp: autoDraw = True
+43.4233 	EXP 	textQuestion: autoDraw = True
+43.6803 	DATA 	Keypress: n
+43.6879 	EXP 	polygon_2: autoDraw = False
+43.6879 	EXP 	textresp: autoDraw = False
+43.6879 	EXP 	textQuestion: autoDraw = False
+43.6879 	EXP 	textBlank500: autoDraw = True
+43.9237 	DATA 	Keypress: n
+44.0903 	DATA 	Keypress: n
+44.1737 	EXP 	New trial (rep=0, index=17): OrderedDict([('word', None), ('oldnew', None), ('corr', None)])
+44.1895 	EXP 	textBlank500: autoDraw = False
+44.1895 	EXP 	textBlank500: autoDraw = False
+44.1895 	EXP 	textresp: text = 'PUTAMEN'
+44.1895 	EXP 	polygon_2: autoDraw = True
+44.1895 	EXP 	textresp: autoDraw = True
+44.1895 	EXP 	textQuestion: autoDraw = True
+45.4096 	DATA 	Keypress: escape
+46.5252 	EXP 	window1: mouseVisible = True

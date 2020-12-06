@@ -1,0 +1,426 @@
+0.6113 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.3235 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001DF9CE5C470>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001DF9CECECF8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.3235 	EXP 	window1: recordFrameIntervals = False
+9.4853 	EXP 	window1: recordFrameIntervals = True
+9.6684 	EXP 	window1: recordFrameIntervals = False
+10.1584 	EXP 	Created weclomeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='weclomeText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Welcome to our experiment\n\n', units='height', win=Window(...), wrapWidth=1)
+10.1599 	EXP 	Created polyback = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='polyback', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+10.1603 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+10.1609 	EXP 	Created polygon_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='polygon_3', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+10.1751 	EXP 	Created textstudy = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textstudy', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.1758 	EXP 	Created polyback = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='polyback', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+10.1763 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+10.1896 	EXP 	Created textWait = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textWait', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Please wait \n\nready press space', units='height', win=Window(...), wrapWidth=1)
+10.1903 	EXP 	Created polyback = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='polyback', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+10.1907 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+10.1914 	EXP 	Created polygon = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='polygon', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+10.1953 	EXP 	Created textTesttrait = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textTesttrait', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.1965 	EXP 	Created polygon_5 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='polygon_5', opacity=1.0, ori=array(0.), pos=array([ 0. , -0.5]), size=array([2. , 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+10.2198 	EXP 	Created textconfscale = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textconfscale', opacity=1.0, ori=0, pos=array([ 0.  , -0.35]), rgb=array([0., 0., 0.]), text='1...2...3...4...5...6\nNEW.............OLD', units='height', win=Window(...), wrapWidth=1)
+10.2205 	EXP 	Created polygon_4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='polygon_4', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+10.2233 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.2240 	EXP 	Created polyBack = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='polyBack', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+10.2271 	EXP 	Created textTestwordRFN = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textTestwordRFN', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+10.2397 	EXP 	Created textRFNscale = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textRFNscale', opacity=1.0, ori=0, pos=array([ 0. , -0.3]), rgb=array([255., 255., 255.]), text='(R)xperience\n(F)amiliar\n(N)either', units='height', win=Window(...), wrapWidth=1)
+10.2403 	EXP 	Created polyback = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor='black', fillColorSpace='named', fillRGB=array([0., 0., 0.]), interpolate=True, lineColor='black', lineColorSpace='named', lineRGB=array([0., 0., 0.]), lineWidth=1, name='polyback', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([2., 2.]), units='height', vertices=ndarray(...), win=Window(...))
+10.2408 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+10.2497 	EXP 	Created textEnd = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textEnd', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Thanks for participating ', units='height', win=Window(...), wrapWidth=1)
+10.2818 	EXP 	weclomeText: autoDraw = True
+11.9615 	DATA 	Keypress: space
+11.9673 	EXP 	weclomeText: autoDraw = False
+11.9673 	EXP 	polyback: autoDraw = True
+11.9673 	EXP 	textBlank500: autoDraw = True
+12.5326 	EXP 	Imported stimul.xlsx as conditions, 3 conditions, 2 params
+12.5414 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+12.5417 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'FRIEND'), ('oldnew', 'old')])
+12.5544 	EXP 	polyback: autoDraw = False
+12.5544 	EXP 	textBlank500: autoDraw = False
+12.5544 	EXP 	textstudy: text = 'FRIEND'
+12.5544 	EXP 	polygon_3: autoDraw = True
+12.5544 	EXP 	textstudy: autoDraw = True
+12.9025 	EXP 	polygon_3: autoDraw = False
+12.9025 	EXP 	textstudy: autoDraw = False
+12.9025 	EXP 	polyback: autoDraw = True
+12.9025 	EXP 	textBlank500: autoDraw = True
+13.3833 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'PHONE'), ('oldnew', 'old')])
+13.3995 	EXP 	polyback: autoDraw = False
+13.3995 	EXP 	textBlank500: autoDraw = False
+13.3995 	EXP 	textstudy: text = 'PHONE'
+13.3995 	EXP 	polygon_3: autoDraw = True
+13.3995 	EXP 	textstudy: autoDraw = True
+13.8997 	EXP 	polygon_3: autoDraw = False
+13.8997 	EXP 	textstudy: autoDraw = False
+13.8997 	EXP 	polyback: autoDraw = True
+13.8997 	EXP 	textBlank500: autoDraw = True
+14.3829 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'VALLEY'), ('oldnew', 'old')])
+14.3991 	EXP 	polyback: autoDraw = False
+14.3991 	EXP 	textBlank500: autoDraw = False
+14.3991 	EXP 	textstudy: text = 'VALLEY'
+14.3991 	EXP 	polygon_3: autoDraw = True
+14.3991 	EXP 	textstudy: autoDraw = True
+14.8994 	EXP 	polygon_3: autoDraw = False
+14.8994 	EXP 	textstudy: autoDraw = False
+14.8994 	EXP 	polyback: autoDraw = True
+14.8994 	EXP 	textBlank500: autoDraw = True
+15.3987 	EXP 	polyback: autoDraw = False
+15.3987 	EXP 	textBlank500: autoDraw = False
+15.3987 	EXP 	textWait: autoDraw = True
+16.9054 	DATA 	Keypress: space
+16.9139 	EXP 	textWait: autoDraw = False
+16.9139 	EXP 	polyback: autoDraw = True
+16.9139 	EXP 	textBlank500: autoDraw = True
+17.4061 	EXP 	Imported stimul.xlsx as conditions, 11 conditions, 2 params
+17.4063 	EXP 	Created sequence: random, trialTypes=11, nReps=1, seed=None
+17.4065 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'PHONE'), ('oldnew', 'old')])
+17.4187 	EXP 	polyback: autoDraw = False
+17.4187 	EXP 	textBlank500: autoDraw = False
+17.4187 	EXP 	polyback: autoDraw = False
+17.4187 	EXP 	textBlank500: autoDraw = False
+17.4187 	EXP 	textTesttrait: text = 'PHONE'
+17.4187 	EXP 	polygon: autoDraw = True
+17.4187 	EXP 	textTesttrait: autoDraw = True
+17.4187 	EXP 	polygon_5: autoDraw = True
+17.4187 	EXP 	textconfscale: autoDraw = True
+20.5898 	DATA 	KeyPress: 6
+20.6122 	EXP 	polygon: autoDraw = False
+20.6122 	EXP 	textTesttrait: autoDraw = False
+20.6122 	EXP 	polygon_5: autoDraw = False
+20.6122 	EXP 	textconfscale: autoDraw = False
+20.6122 	EXP 	text: text = 'PHONE'
+20.6122 	EXP 	polygon_4: autoDraw = True
+20.6122 	EXP 	text: autoDraw = True
+21.1121 	EXP 	polygon_4: autoDraw = False
+21.1121 	EXP 	text: autoDraw = False
+21.1121 	EXP 	polygon_4: autoDraw = False
+21.1121 	EXP 	text: autoDraw = False
+21.1121 	EXP 	textTestwordRFN: text = 'PHONE'
+21.1121 	EXP 	polyBack: autoDraw = True
+21.1121 	EXP 	textTestwordRFN: autoDraw = True
+21.1121 	EXP 	textRFNscale: autoDraw = True
+29.3077 	EXP 	polyBack: autoDraw = False
+29.3077 	EXP 	textTestwordRFN: autoDraw = False
+29.3077 	EXP 	textRFNscale: autoDraw = False
+29.3077 	EXP 	polyback: autoDraw = True
+29.3077 	EXP 	textBlank500: autoDraw = True
+29.8083 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'AUGUST'), ('oldnew', 'new')])
+29.8304 	EXP 	polyback: autoDraw = False
+29.8304 	EXP 	textBlank500: autoDraw = False
+29.8304 	EXP 	textTesttrait: text = 'AUGUST'
+29.8304 	EXP 	polygon: autoDraw = True
+29.8304 	EXP 	textTesttrait: autoDraw = True
+29.8304 	EXP 	polygon_5: autoDraw = True
+29.8304 	EXP 	textconfscale: autoDraw = True
+31.2276 	DATA 	Keypress: rwindows
+31.4949 	DATA 	Keypress: space
+34.0810 	DATA 	Keypress: 6
+34.0875 	EXP 	polygon: autoDraw = False
+34.0875 	EXP 	textTesttrait: autoDraw = False
+34.0875 	EXP 	polygon_5: autoDraw = False
+34.0875 	EXP 	textconfscale: autoDraw = False
+34.0875 	EXP 	text: text = 'AUGUST'
+34.0875 	EXP 	polygon_4: autoDraw = True
+34.0875 	EXP 	text: autoDraw = True
+34.8905 	EXP 	polygon_4: autoDraw = False
+34.8905 	EXP 	text: autoDraw = False
+34.8905 	EXP 	textTestwordRFN: text = 'AUGUST'
+34.8905 	EXP 	polyBack: autoDraw = True
+34.8905 	EXP 	textTestwordRFN: autoDraw = True
+34.8905 	EXP 	textRFNscale: autoDraw = True
+36.3939 	DATA 	Keypress: f
+36.4030 	EXP 	polyBack: autoDraw = False
+36.4030 	EXP 	textTestwordRFN: autoDraw = False
+36.4030 	EXP 	textRFNscale: autoDraw = False
+36.4030 	EXP 	polyback: autoDraw = True
+36.4030 	EXP 	textBlank500: autoDraw = True
+36.8891 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'TODAY'), ('oldnew', 'new')])
+36.9025 	EXP 	polyback: autoDraw = False
+36.9025 	EXP 	textBlank500: autoDraw = False
+36.9025 	EXP 	polyback: autoDraw = False
+36.9025 	EXP 	textBlank500: autoDraw = False
+36.9025 	EXP 	textTesttrait: text = 'TODAY'
+36.9025 	EXP 	polygon: autoDraw = True
+36.9025 	EXP 	textTesttrait: autoDraw = True
+36.9025 	EXP 	polygon_5: autoDraw = True
+36.9025 	EXP 	textconfscale: autoDraw = True
+38.6791 	DATA 	Keypress: 6
+38.6854 	EXP 	polygon: autoDraw = False
+38.6854 	EXP 	textTesttrait: autoDraw = False
+38.6854 	EXP 	polygon_5: autoDraw = False
+38.6854 	EXP 	textconfscale: autoDraw = False
+38.6854 	EXP 	text: text = 'TODAY'
+38.6854 	EXP 	polygon_4: autoDraw = True
+38.6854 	EXP 	text: autoDraw = True
+39.1851 	EXP 	polygon_4: autoDraw = False
+39.1851 	EXP 	text: autoDraw = False
+39.1851 	EXP 	polygon_4: autoDraw = False
+39.1851 	EXP 	text: autoDraw = False
+39.1851 	EXP 	textTestwordRFN: text = 'TODAY'
+39.1851 	EXP 	polyBack: autoDraw = True
+39.1851 	EXP 	textTestwordRFN: autoDraw = True
+39.1851 	EXP 	textRFNscale: autoDraw = True
+39.7751 	DATA 	Keypress: f
+39.7850 	EXP 	polyBack: autoDraw = False
+39.7850 	EXP 	textTestwordRFN: autoDraw = False
+39.7850 	EXP 	textRFNscale: autoDraw = False
+39.7850 	EXP 	polyback: autoDraw = True
+39.7850 	EXP 	textBlank500: autoDraw = True
+40.2703 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'PET'), ('oldnew', 'new')])
+40.2845 	EXP 	polyback: autoDraw = False
+40.2845 	EXP 	textBlank500: autoDraw = False
+40.2845 	EXP 	polyback: autoDraw = False
+40.2845 	EXP 	textBlank500: autoDraw = False
+40.2845 	EXP 	textTesttrait: text = 'PET'
+40.2845 	EXP 	polygon: autoDraw = True
+40.2845 	EXP 	textTesttrait: autoDraw = True
+40.2845 	EXP 	polygon_5: autoDraw = True
+40.2845 	EXP 	textconfscale: autoDraw = True
+41.5046 	DATA 	Keypress: 6
+41.5335 	EXP 	polygon: autoDraw = False
+41.5335 	EXP 	textTesttrait: autoDraw = False
+41.5335 	EXP 	polygon_5: autoDraw = False
+41.5335 	EXP 	textconfscale: autoDraw = False
+41.5335 	EXP 	text: text = 'PET'
+41.5335 	EXP 	polygon_4: autoDraw = True
+41.5335 	EXP 	text: autoDraw = True
+42.0331 	EXP 	polygon_4: autoDraw = False
+42.0331 	EXP 	text: autoDraw = False
+42.0331 	EXP 	polygon_4: autoDraw = False
+42.0331 	EXP 	text: autoDraw = False
+42.0331 	EXP 	textTestwordRFN: text = 'PET'
+42.0331 	EXP 	polyBack: autoDraw = True
+42.0331 	EXP 	textTestwordRFN: autoDraw = True
+42.0331 	EXP 	textRFNscale: autoDraw = True
+42.6058 	DATA 	Keypress: f
+42.6169 	EXP 	polyBack: autoDraw = False
+42.6169 	EXP 	textTestwordRFN: autoDraw = False
+42.6169 	EXP 	textRFNscale: autoDraw = False
+42.6169 	EXP 	polyback: autoDraw = True
+42.6169 	EXP 	textBlank500: autoDraw = True
+43.1016 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'GLASS'), ('oldnew', 'old')])
+43.1163 	EXP 	polyback: autoDraw = False
+43.1163 	EXP 	textBlank500: autoDraw = False
+43.1163 	EXP 	polyback: autoDraw = False
+43.1163 	EXP 	textBlank500: autoDraw = False
+43.1163 	EXP 	textTesttrait: text = 'GLASS'
+43.1163 	EXP 	polygon: autoDraw = True
+43.1163 	EXP 	textTesttrait: autoDraw = True
+43.1163 	EXP 	polygon_5: autoDraw = True
+43.1163 	EXP 	textconfscale: autoDraw = True
+44.3933 	DATA 	Keypress: 6
+44.3988 	EXP 	polygon: autoDraw = False
+44.3988 	EXP 	textTesttrait: autoDraw = False
+44.3988 	EXP 	polygon_5: autoDraw = False
+44.3988 	EXP 	textconfscale: autoDraw = False
+44.3988 	EXP 	text: text = 'GLASS'
+44.3988 	EXP 	polygon_4: autoDraw = True
+44.3988 	EXP 	text: autoDraw = True
+44.8983 	EXP 	polygon_4: autoDraw = False
+44.8983 	EXP 	text: autoDraw = False
+44.8983 	EXP 	polygon_4: autoDraw = False
+44.8983 	EXP 	text: autoDraw = False
+44.8983 	EXP 	textTestwordRFN: text = 'GLASS'
+44.8983 	EXP 	polyBack: autoDraw = True
+44.8983 	EXP 	textTestwordRFN: autoDraw = True
+44.8983 	EXP 	textRFNscale: autoDraw = True
+45.7207 	DATA 	Keypress: f
+45.7313 	EXP 	polyBack: autoDraw = False
+45.7313 	EXP 	textTestwordRFN: autoDraw = False
+45.7313 	EXP 	textRFNscale: autoDraw = False
+45.7313 	EXP 	polyback: autoDraw = True
+45.7313 	EXP 	textBlank500: autoDraw = True
+46.2173 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'FRIEND'), ('oldnew', 'old')])
+46.2307 	EXP 	polyback: autoDraw = False
+46.2307 	EXP 	textBlank500: autoDraw = False
+46.2307 	EXP 	polyback: autoDraw = False
+46.2307 	EXP 	textBlank500: autoDraw = False
+46.2307 	EXP 	textTesttrait: text = 'FRIEND'
+46.2307 	EXP 	polygon: autoDraw = True
+46.2307 	EXP 	textTesttrait: autoDraw = True
+46.2307 	EXP 	polygon_5: autoDraw = True
+46.2307 	EXP 	textconfscale: autoDraw = True
+47.7238 	DATA 	Keypress: 6
+47.7299 	EXP 	polygon: autoDraw = False
+47.7299 	EXP 	textTesttrait: autoDraw = False
+47.7299 	EXP 	polygon_5: autoDraw = False
+47.7299 	EXP 	textconfscale: autoDraw = False
+47.7299 	EXP 	text: text = 'FRIEND'
+47.7299 	EXP 	polygon_4: autoDraw = True
+47.7299 	EXP 	text: autoDraw = True
+48.2301 	EXP 	polygon_4: autoDraw = False
+48.2301 	EXP 	text: autoDraw = False
+48.2301 	EXP 	polygon_4: autoDraw = False
+48.2301 	EXP 	text: autoDraw = False
+48.2301 	EXP 	textTestwordRFN: text = 'FRIEND'
+48.2301 	EXP 	polyBack: autoDraw = True
+48.2301 	EXP 	textTestwordRFN: autoDraw = True
+48.2301 	EXP 	textRFNscale: autoDraw = True
+48.7525 	DATA 	Keypress: f
+48.7627 	EXP 	polyBack: autoDraw = False
+48.7627 	EXP 	textTestwordRFN: autoDraw = False
+48.7627 	EXP 	textRFNscale: autoDraw = False
+48.7627 	EXP 	polyback: autoDraw = True
+48.7627 	EXP 	textBlank500: autoDraw = True
+49.2484 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'LAND'), ('oldnew', 'old')])
+49.2626 	EXP 	polyback: autoDraw = False
+49.2626 	EXP 	textBlank500: autoDraw = False
+49.2626 	EXP 	polyback: autoDraw = False
+49.2626 	EXP 	textBlank500: autoDraw = False
+49.2626 	EXP 	textTesttrait: text = 'LAND'
+49.2626 	EXP 	polygon: autoDraw = True
+49.2626 	EXP 	textTesttrait: autoDraw = True
+49.2626 	EXP 	polygon_5: autoDraw = True
+49.2626 	EXP 	textconfscale: autoDraw = True
+50.3889 	DATA 	Keypress: 6
+50.3953 	EXP 	polygon: autoDraw = False
+50.3953 	EXP 	textTesttrait: autoDraw = False
+50.3953 	EXP 	polygon_5: autoDraw = False
+50.3953 	EXP 	textconfscale: autoDraw = False
+50.3953 	EXP 	text: text = 'LAND'
+50.3953 	EXP 	polygon_4: autoDraw = True
+50.3953 	EXP 	text: autoDraw = True
+50.5642 	DATA 	Keypress: f
+50.8953 	EXP 	polygon_4: autoDraw = False
+50.8953 	EXP 	text: autoDraw = False
+50.8953 	EXP 	polygon_4: autoDraw = False
+50.8953 	EXP 	text: autoDraw = False
+50.8953 	EXP 	textTestwordRFN: text = 'LAND'
+50.8953 	EXP 	polyBack: autoDraw = True
+50.8953 	EXP 	textTestwordRFN: autoDraw = True
+50.8953 	EXP 	textRFNscale: autoDraw = True
+51.2683 	DATA 	Keypress: f
+51.2789 	EXP 	polyBack: autoDraw = False
+51.2789 	EXP 	textTestwordRFN: autoDraw = False
+51.2789 	EXP 	textRFNscale: autoDraw = False
+51.2789 	EXP 	polyback: autoDraw = True
+51.2789 	EXP 	textBlank500: autoDraw = True
+51.7640 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'STREET'), ('oldnew', 'new')])
+51.7783 	EXP 	polyback: autoDraw = False
+51.7783 	EXP 	textBlank500: autoDraw = False
+51.7783 	EXP 	polyback: autoDraw = False
+51.7783 	EXP 	textBlank500: autoDraw = False
+51.7783 	EXP 	textTesttrait: text = 'STREET'
+51.7783 	EXP 	polygon: autoDraw = True
+51.7783 	EXP 	textTesttrait: autoDraw = True
+51.7783 	EXP 	polygon_5: autoDraw = True
+51.7783 	EXP 	textconfscale: autoDraw = True
+52.8889 	DATA 	Keypress: 6
+52.8942 	EXP 	polygon: autoDraw = False
+52.8942 	EXP 	textTesttrait: autoDraw = False
+52.8942 	EXP 	polygon_5: autoDraw = False
+52.8942 	EXP 	textconfscale: autoDraw = False
+52.8942 	EXP 	text: text = 'STREET'
+52.8942 	EXP 	polygon_4: autoDraw = True
+52.8942 	EXP 	text: autoDraw = True
+53.3937 	EXP 	polygon_4: autoDraw = False
+53.3937 	EXP 	text: autoDraw = False
+53.3937 	EXP 	polygon_4: autoDraw = False
+53.3937 	EXP 	text: autoDraw = False
+53.3937 	EXP 	textTestwordRFN: text = 'STREET'
+53.3937 	EXP 	polyBack: autoDraw = True
+53.3937 	EXP 	textTestwordRFN: autoDraw = True
+53.3937 	EXP 	textRFNscale: autoDraw = True
+53.7663 	DATA 	Keypress: f
+53.7770 	EXP 	polyBack: autoDraw = False
+53.7770 	EXP 	textTestwordRFN: autoDraw = False
+53.7770 	EXP 	textRFNscale: autoDraw = False
+53.7770 	EXP 	polyback: autoDraw = True
+53.7770 	EXP 	textBlank500: autoDraw = True
+54.2625 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'GLOBE'), ('oldnew', 'old')])
+54.2775 	EXP 	polyback: autoDraw = False
+54.2775 	EXP 	textBlank500: autoDraw = False
+54.2775 	EXP 	polyback: autoDraw = False
+54.2775 	EXP 	textBlank500: autoDraw = False
+54.2775 	EXP 	textTesttrait: text = 'GLOBE'
+54.2775 	EXP 	polygon: autoDraw = True
+54.2775 	EXP 	textTesttrait: autoDraw = True
+54.2775 	EXP 	polygon_5: autoDraw = True
+54.2775 	EXP 	textconfscale: autoDraw = True
+55.4355 	DATA 	Keypress: 6
+55.4430 	EXP 	polygon: autoDraw = False
+55.4430 	EXP 	textTesttrait: autoDraw = False
+55.4430 	EXP 	polygon_5: autoDraw = False
+55.4430 	EXP 	textconfscale: autoDraw = False
+55.4430 	EXP 	text: text = 'GLOBE'
+55.4430 	EXP 	polygon_4: autoDraw = True
+55.4430 	EXP 	text: autoDraw = True
+55.9585 	EXP 	polygon_4: autoDraw = False
+55.9585 	EXP 	text: autoDraw = False
+55.9585 	EXP 	textTestwordRFN: text = 'GLOBE'
+55.9585 	EXP 	polyBack: autoDraw = True
+55.9585 	EXP 	textTestwordRFN: autoDraw = True
+55.9585 	EXP 	textRFNscale: autoDraw = True
+56.2799 	DATA 	Keypress: f
+56.3087 	EXP 	polyBack: autoDraw = False
+56.3087 	EXP 	textTestwordRFN: autoDraw = False
+56.3087 	EXP 	textRFNscale: autoDraw = False
+56.3087 	EXP 	polyback: autoDraw = True
+56.3087 	EXP 	textBlank500: autoDraw = True
+56.7941 	EXP 	New trial (rep=0, index=9): OrderedDict([('word', 'VALLEY'), ('oldnew', 'old')])
+56.8086 	EXP 	polyback: autoDraw = False
+56.8086 	EXP 	textBlank500: autoDraw = False
+56.8086 	EXP 	polyback: autoDraw = False
+56.8086 	EXP 	textBlank500: autoDraw = False
+56.8086 	EXP 	textTesttrait: text = 'VALLEY'
+56.8086 	EXP 	polygon: autoDraw = True
+56.8086 	EXP 	textTesttrait: autoDraw = True
+56.8086 	EXP 	polygon_5: autoDraw = True
+56.8086 	EXP 	textconfscale: autoDraw = True
+57.7288 	DATA 	Keypress: 6
+57.7577 	EXP 	polygon: autoDraw = False
+57.7577 	EXP 	textTesttrait: autoDraw = False
+57.7577 	EXP 	polygon_5: autoDraw = False
+57.7577 	EXP 	textconfscale: autoDraw = False
+57.7577 	EXP 	text: text = 'VALLEY'
+57.7577 	EXP 	polygon_4: autoDraw = True
+57.7577 	EXP 	text: autoDraw = True
+58.2574 	EXP 	polygon_4: autoDraw = False
+58.2574 	EXP 	text: autoDraw = False
+58.2574 	EXP 	polygon_4: autoDraw = False
+58.2574 	EXP 	text: autoDraw = False
+58.2574 	EXP 	textTestwordRFN: text = 'VALLEY'
+58.2574 	EXP 	polyBack: autoDraw = True
+58.2574 	EXP 	textTestwordRFN: autoDraw = True
+58.2574 	EXP 	textRFNscale: autoDraw = True
+58.5974 	DATA 	Keypress: f
+58.6079 	EXP 	polyBack: autoDraw = False
+58.6079 	EXP 	textTestwordRFN: autoDraw = False
+58.6079 	EXP 	textRFNscale: autoDraw = False
+58.6079 	EXP 	polyback: autoDraw = True
+58.6079 	EXP 	textBlank500: autoDraw = True
+59.1079 	EXP 	New trial (rep=0, index=10): OrderedDict([('word', 'WIRE'), ('oldnew', 'new')])
+59.1236 	EXP 	polyback: autoDraw = False
+59.1236 	EXP 	textBlank500: autoDraw = False
+59.1236 	EXP 	textTesttrait: text = 'WIRE'
+59.1236 	EXP 	polygon: autoDraw = True
+59.1236 	EXP 	textTesttrait: autoDraw = True
+59.1236 	EXP 	polygon_5: autoDraw = True
+59.1236 	EXP 	textconfscale: autoDraw = True
+59.8504 	DATA 	Keypress: 6
+59.8563 	EXP 	polygon: autoDraw = False
+59.8563 	EXP 	textTesttrait: autoDraw = False
+59.8563 	EXP 	polygon_5: autoDraw = False
+59.8563 	EXP 	textconfscale: autoDraw = False
+59.8563 	EXP 	text: text = 'WIRE'
+59.8563 	EXP 	polygon_4: autoDraw = True
+59.8563 	EXP 	text: autoDraw = True
+60.3562 	EXP 	polygon_4: autoDraw = False
+60.3562 	EXP 	text: autoDraw = False
+60.3562 	EXP 	polygon_4: autoDraw = False
+60.3562 	EXP 	text: autoDraw = False
+60.3562 	EXP 	textTestwordRFN: text = 'WIRE'
+60.3562 	EXP 	polyBack: autoDraw = True
+60.3562 	EXP 	textTestwordRFN: autoDraw = True
+60.3562 	EXP 	textRFNscale: autoDraw = True
+60.6793 	DATA 	Keypress: f
+60.6893 	EXP 	polyBack: autoDraw = False
+60.6893 	EXP 	textTestwordRFN: autoDraw = False
+60.6893 	EXP 	textRFNscale: autoDraw = False
+60.6893 	EXP 	polyback: autoDraw = True
+60.6893 	EXP 	textBlank500: autoDraw = True
+61.1892 	EXP 	polyback: autoDraw = False
+61.1892 	EXP 	textBlank500: autoDraw = False
+61.1892 	EXP 	polyback: autoDraw = False
+61.1892 	EXP 	textBlank500: autoDraw = False
+61.1892 	EXP 	textEnd: autoDraw = True
+64.2046 	EXP 	textEnd: autoDraw = False
+64.2519 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,55 @@
+0.5616 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.6085 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+9.1797 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000026669ACF908>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000026669B2A1D0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.1798 	EXP 	window1: recordFrameIntervals = False
+9.3459 	EXP 	window1: recordFrameIntervals = True
+9.5293 	EXP 	window1: recordFrameIntervals = False
+9.9618 	EXP 	Created weclomeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='weclomeText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Welcome to our experiment\n\n', units='height', win=Window(...), wrapWidth=1)
+9.9623 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+9.9698 	EXP 	Created textstudy = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textstudy', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+9.9702 	EXP 	Created textBlank500 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='textBlank500', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='height', win=Window(...), wrapWidth=1)
+10.0002 	EXP 	weclomeText: autoDraw = True
+11.0852 	DATA 	Keypress: space
+11.0947 	EXP 	weclomeText: autoDraw = False
+11.0947 	EXP 	textBlank500: autoDraw = True
+11.6068 	EXP 	Imported word.xlsx as conditions, 6 conditions, 2 params
+11.9349 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+11.9352 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'FRIEND'), ('colour', 'green')])
+11.9537 	EXP 	textBlank500: autoDraw = False
+11.9537 	EXP 	textBlank500: autoDraw = False
+11.9537 	EXP 	textstudy: text = 'FRIEND'
+11.9537 	EXP 	textstudy: autoDraw = True
+13.6100 	EXP 	textstudy: autoDraw = False
+13.6100 	EXP 	textBlank500: autoDraw = True
+14.0939 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'PHONE'), ('colour', 'green')])
+14.1097 	EXP 	textBlank500: autoDraw = False
+14.1097 	EXP 	textstudy: text = 'PHONE'
+14.1097 	EXP 	textstudy: autoDraw = True
+16.1087 	EXP 	textstudy: autoDraw = False
+16.1087 	EXP 	textBlank500: autoDraw = True
+16.5923 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'GLASS'), ('colour', 'blue')])
+16.6082 	EXP 	textBlank500: autoDraw = False
+16.6082 	EXP 	textstudy: text = 'GLASS'
+16.6082 	EXP 	textstudy: autoDraw = True
+18.6072 	EXP 	textstudy: autoDraw = False
+18.6072 	EXP 	textBlank500: autoDraw = True
+19.0907 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'VALLEY'), ('colour', 'blue')])
+19.1069 	EXP 	textBlank500: autoDraw = False
+19.1069 	EXP 	textstudy: text = 'VALLEY'
+19.1069 	EXP 	textstudy: autoDraw = True
+21.1059 	EXP 	textstudy: autoDraw = False
+21.1059 	EXP 	textBlank500: autoDraw = True
+21.5894 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'WRENCH'), ('colour', 'blue')])
+21.6055 	EXP 	textBlank500: autoDraw = False
+21.6055 	EXP 	textstudy: text = 'WRENCH'
+21.6055 	EXP 	textstudy: autoDraw = True
+23.6044 	EXP 	textstudy: autoDraw = False
+23.6044 	EXP 	textBlank500: autoDraw = True
+24.0878 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'MOUNTAIN'), ('colour', 'blue')])
+24.1039 	EXP 	textBlank500: autoDraw = False
+24.1039 	EXP 	textstudy: text = 'MOUNTAIN'
+24.1039 	EXP 	textstudy: autoDraw = True
+26.1029 	EXP 	textstudy: autoDraw = False
+26.1029 	EXP 	textBlank500: autoDraw = True
+26.6029 	EXP 	textBlank500: autoDraw = False
+27.4248 	EXP 	window1: mouseVisible = True
