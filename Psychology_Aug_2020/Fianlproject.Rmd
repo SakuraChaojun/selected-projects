@@ -1,0 +1,149 @@
+---
+title: "STAT at beginning of class"
+author: "Chaojun Ma"
+date: 'Banner:  B00726514'
+output:
+  pdf_document: default
+  word_document: default
+  html_document: default
+---
+
+```{r}
+```
+
+
+```{r}
+#Read data from raw file
+
+raw0data = read.csv("raw0data.csv")
+raw1data = read.csv("raw1data.csv")
+rawdata = read.csv("rawdata.csv")
+
+#preprocess data
+
+raw0dataconf = raw0data $key_conf.keys
+raw0dataconfrt = raw0data $key_conf.rt
+
+raw0datakey = raw0data $key_TestRfn.keys
+raw0datakeyrt = raw0data $key_TestRfn.rt
+```
+
+
+```{r}
+raw1dataconf = raw1data $key_conf.keys
+raw1dataconfrt = raw1data $key_conf.rt
+
+raw1datakey = raw1data $key_TestRfn.keys
+raw1datakeyrt = raw1data $key_TestRfn.rt
+
+
+raw0corr = raw0data $corr.1
+raw1corr = raw1data $corr.1
+
+raw0length = raw0data $length;
+raw1length = raw1data $length;
+
+```
+
+
+
+```{r}
+summary(raw0corr)
+sd(raw0corr)
+
+summary(raw1corr)
+sd(raw1corr)
+summary(raw1datakeyrt)
+
+
+```
+
+```{r}
+shapiro.test(raw0corr)
+shapiro.test(raw1corr)
+
+wilcox.test(raw0corr,raw1corr)
+```
+```{r}
+lengthmodel0 = glm(raw0corr ~ raw0length)
+summary(lengthmodel0)
+plot(lengthmodel0)
+```
+```{r}
+lengthmodel1 = glm(raw1corr ~ raw1length)
+summary(lengthmodel1)
+plot(raw1length,raw1corr)
+lines(raw1length,fitted(lengthmodel1))
+
+plot(lengthmodel1)
+```
+
+```{r}
+#Example 2: antidepressant data
+## put (absolute) correlations on the upper panels,
+## with size proportional to the correlations.
+panel.hist <- function(x, ...)
+{
+  usr <- par("usr"); on.exit(par(usr))
+  par(usr = c(usr[1:2], 0, 1.5) )
+  h <- hist(x, plot = FALSE)
+  breaks <- h$breaks; nB <- length(breaks)
+  y <- h$counts; y <- y/max(y)
+  rect(breaks[-nB], 0, breaks[-1], y, col = "cyan", ...)
+}
+
+panel.cor <- function(x, y, digits = 2, prefix = "", cex.cor, ...)
+{
+  usr <- par("usr"); on.exit(par(usr))
+  par(usr = c(0, 1, 0, 1))
+  r <- abs(cor(x, y))
+  txt <- format(c(r, 0.123456789), digits = digits)[1]
+  txt <- paste0(prefix, txt)
+  if(missing(cex.cor)) cex.cor <- 0.8/strwidth(txt)
+  text(0.5, 0.5, txt, cex = cex.cor * r)
+}
+data = read.table('Amitriptyline.txt')
+```
+
+
+
+
+
+```{r}
+geys<-read.table("OldFaithfulGeyser.csv",head=TRUE,sep=";",dec=",")
+colnames(geys)<-c("dur","int")
+plot(geys$dur,geys$int, xlab = "Duration of eruption - (min)",
+     ylab = "interval to next eruption - (min)", pch=20,
+     main="Old Faithful geyser data", las=1)
+```
+```{r}
+panel.hist <- function(x, ...)
+{
+  usr <- par("usr"); on.exit(par(usr))
+  par(usr = c(usr[1:2], 0, 1.5) )
+  h <- hist(x, plot = FALSE)
+  breaks <- h$breaks; nB <- length(breaks)
+  y <- h$counts; y <- y/max(y)
+  rect(breaks[-nB], 0, breaks[-1], y, col = "cyan", ...)
+}
+panel.cor <- function(x, y, digits = 2, prefix = "", cex.cor, ...)
+{
+  usr <- par("usr"); on.exit(par(usr))
+  par(usr = c(0, 1, 0, 1))
+  r <- abs(cor(x, y))
+  txt <- format(c(r, 0.123456789), digits = digits)[1]
+  txt <- paste0(prefix, txt)
+  if(missing(cex.cor)) cex.cor <- 0.8/strwidth(txt)
+  text(0.5, 0.5, txt, cex = cex.cor * r)
+}
+data=read.table("sales.txt")
+colnames(data)[1:7]=c("Y1","Y2","Z1","Z2","s","d","g")
+pairs(data[,1:7], diag.panel=panel.hist, upper.panel = panel.cor)
+```
+
+
+```{r}
+data2080 = c(16.36,16.78,16.42,18.12,16.43,17.45,19.89,15.67,16.34,13.84,13.86)
+t.test(data2080,mu = 19)
+```
+
