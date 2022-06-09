@@ -10,5 +10,4 @@ The study uses ancient English words with or without the syllable rules (e.g. â€
 ## Psychology Apr-2022
 The relationships among ICT-based social media use, self-regulated learning and Asian adolescents digital reading literacy. 
 
-Abstract 
 
